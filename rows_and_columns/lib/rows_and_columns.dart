@@ -159,11 +159,60 @@ class rows_and_columns extends StatelessWidget {
                 color: Colors.purple[300],
                 child: Text("Hello Cont"),
               ),
-              Container(
-                height: 100,
-                width: 100,
-                color: Colors.amber[300],
-                child: Text("Hello Cont"),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.teal[50],
+                      child: Text("Hello Cont"),
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.teal[100],
+                      child: Text("Hello Cont"),
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.teal[200],
+                      child: Text("Hello Cont"),
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.teal[300],
+                      child: Text("Hello Cont"),
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.teal[400],
+                      child: Text("Hello Cont"),
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.teal[500],
+                      child: Text("Hello Cont"),
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.teal[600],
+                      child: Text("Hello Cont"),
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.teal[700],
+                      child: Text("Hello Cont"),
+                    ),
+                  ],
+                ),
               ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
